@@ -20,9 +20,3 @@
 | File           | Description |
 | -------------- | ----------- |
 | `solution.sql` |             |
-
-## How to run
-
-```bash
-psql -h <host> -U <user> -d <database> -f solution.sql
-```

@@ -12,7 +12,7 @@ Assignments from the *SQL* course, grouped into sections by topic.
 ├── 01_basics/
 │   ├── README.md         # section title + list of its exercises
 │   ├── ex01/
-│   │   ├── README.md     # task (PL + EN), files, how to run
+│   │   ├── README.md     # task (PL + EN), files
 │   │   └── solution.sql
 │   ├── ex02/
 │   └── ...
