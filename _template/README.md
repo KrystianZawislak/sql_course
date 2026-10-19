@@ -26,8 +26,3 @@
 ```bash
 psql -h <host> -U <user> -d <database> -f solution.sql
 ```
-
-Example output:
-
-```
-```
