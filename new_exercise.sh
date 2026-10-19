@@ -45,8 +45,11 @@ if [[ -e "$dir" ]]; then
   exit 1
 fi
 
+# escapes \, / and & so the text is safe as a sed replacement
+esc() { printf '%s' "$1" | sed 's/[\\/&]/\\&/g'; }
+
 mkdir "$dir"
-sed -e "s/{{N}}/$n/g" -e "s/{{TITLE}}/$title/g" -e "s/{{SECTION_TITLE}}/$section_title/g" \
+sed -e "s/{{N}}/$n/g" -e "s/{{TITLE}}/$(esc "$title")/g" -e "s/{{SECTION_TITLE}}/$(esc "$section_title")/g" \
   -e "s/{{DATE}}/$(date +%Y-%m-%d)/g" _template/README.md > "$dir/README.md"
 printf -- '-- %s · Exercise %s — %s\n\n' "$section_title" "$n" "$title" > "$dir/solution.sql"
 echo "| [$n](ex$num/) | $title | ⏳ |" >> "$section/README.md"
