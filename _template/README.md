@@ -1,7 +1,9 @@
-# Exercise {{N}} — {{TITLE}}
+# {{SECTION_TITLE}} · Exercise {{N}} — {{TITLE}}
 
 > Course: SQL
 > Date: {{DATE}}
+
+[← {{SECTION_TITLE}}](../README.md)
 
 ## Task
 
