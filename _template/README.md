@@ -24,8 +24,7 @@
 ## How to run
 
 ```bash
-# MySQL:  mysql -u root -p <database> < solution.sql
-# SQLite: sqlite3 <database>.db < solution.sql
+psql -h <host> -U <user> -d <database> -f solution.sql
 ```
 
 Example output:
