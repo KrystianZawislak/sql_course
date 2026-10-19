@@ -6,3 +6,4 @@
 
 | #   | Title | Status |
 | --- | ----- | ------ |
+| [1](ex01/) | T1/A: rounding numeric vs double | ✅ |
