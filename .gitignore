@@ -1,0 +1,9 @@
+# local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
