@@ -44,3 +44,5 @@ The script also adds the exercise to the section's table (status ⏳, change to 
 | #   | Section |
 | --- | ------- |
 | 01 | [SQL Basics](01_basics/) |
+| 02 | [WHERE Clause & Set Operators](02_where/) |
+| 03 | [Data Manipulation (DML)](03_dml/) |
