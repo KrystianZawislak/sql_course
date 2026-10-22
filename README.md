@@ -16,7 +16,7 @@ Assignments from the *SQL* course, grouped into sections by topic.
 │   │   └── solution.sql
 │   ├── ex02/
 │   └── ...
-├── 02_where/
+├── 02_where_set_operators/
 └── ...
 ```
 
@@ -44,5 +44,5 @@ The script also adds the exercise to the section's table (status ⏳, change to 
 | #   | Section |
 | --- | ------- |
 | 01 | [SQL Basics](01_basics/) |
-| 02 | [WHERE Clause & Set Operators](02_where/) |
+| 02 | [WHERE Clause & Set Operators](02_where_set_operators/) |
 | 03 | [Data Manipulation (DML)](03_dml/) |
