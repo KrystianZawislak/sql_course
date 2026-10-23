@@ -1,5 +1,5 @@
 -- WHERE Clause & Set Operators · Exercise 11 — Discus throw: Olympic final winner
-WITH dyskobol AS(
+WITH discus AS(
 SELECT *
 	FROM (VALUES
 	 	(1, 'Piotr', 'Małachowski', 1, 69.88),
@@ -16,25 +16,25 @@ SELECT *
 	 	(3, 'Kristjan', 'Čeh', 4, 64.72), 	  
 	 	(1, 'Piotr', 'Małachowski', 5, 68.21),
 	 	(2, 'Gerd', 'Kanter', 5, 67.22),
-	 	(3, 'Kristjan', 'Čeh', 5, 70.23)) AS dyskobol (numer, imie, nazwisko, proba, rezultat) 	  
+	 	(3, 'Kristjan', 'Čeh', 5, 70.23)) AS discus (athlete_no, first_name, last_name, attempt, result) 	  
 ), 
 
-najlepsze_kwalifikacje AS (
-SELECT DISTINCT ON (numer) *
-FROM dyskobol
-WHERE proba <= 2
-ORDER BY numer, rezultat DESC),
+best_qualifying AS (
+SELECT DISTINCT ON (athlete_no) *
+FROM discus
+WHERE attempt <= 2
+ORDER BY athlete_no, result DESC),
 
-finalisci AS (
+finalists AS (
 SELECT *
-FROM najlepsze_kwalifikacje
-ORDER BY rezultat DESC
+FROM best_qualifying
+ORDER BY result DESC
 LIMIT 2)
 
-SELECT imie, nazwisko, rezultat, proba FROM dyskobol
-WHERE proba >= 3 AND proba <= 5
-AND numer IN (SELECT numer FROM finalisci)
-ORDER BY rezultat DESC NULLS LAST
+SELECT first_name, last_name, result, attempt FROM discus
+WHERE attempt >= 3 AND attempt <= 5
+AND athlete_no IN (SELECT athlete_no FROM finalists)
+ORDER BY result DESC NULLS LAST
 LIMIT 1;
 
 
