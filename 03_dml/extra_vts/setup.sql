@@ -32,6 +32,11 @@ CREATE TABLE vts.location (
 CREATE UNIQUE INDEX vehicle_location_ukey 
 ON vts.location (vehicle_id, latitude, longitude, date_trunc('minute', recorded_at));
 
+-- Alternative covering the 10 m requirement: coordinates rounded to 4 decimal places
+-- (≈ 11 m x 7 m grid around 50°N), so GPS drift within a cell counts as standing still
+-- CREATE UNIQUE INDEX vehicle_location_ukey
+-- ON vts.location (vehicle_id, round(latitude, 4), round(longitude, 4), date_trunc('minute', recorded_at));
+
 -- Fill the tables with data
 INSERT INTO vts.vehicle
 VALUES (1, '1HGCM82633A004352', 'KR12345', 'Toyota', 'Corolla'),
