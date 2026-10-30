@@ -13,3 +13,4 @@
 | [5](ex05/) | T2/B: p >= 10 OR p < 10 as a tautology | ✅ |
 | [6](ex06/) | T2/C: NOT a IS NULL vs a IS NOT NULL | ✅ |
 | [7](ex07/) | T2/D: NOT a IS NULL AND NOT a IS NOT NULL | ✅ |
+| [8](ex08/) | T3/A: strong vs weak, static vs dynamic typing | ✅ |
