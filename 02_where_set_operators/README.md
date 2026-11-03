@@ -6,4 +6,4 @@
 
 | #   | Title | Status |
 | --- | ----- | ------ |
-| [11](ex11/) | Discus throw: Olympic final winner | ✅ |
+| [DYSKOBOL](dyskobol/) | Discus throw: Olympic final winner | ✅ |

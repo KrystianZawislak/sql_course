@@ -1,4 +1,4 @@
-# SQL Basics · Exercise 2 — T1/B: negative zero
+# SQL Basics · T1/B — Negative zero
 
 > Course: SQL
 > Date: 2026-10-19

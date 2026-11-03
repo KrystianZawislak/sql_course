@@ -1,4 +1,4 @@
--- SQL Basics · Exercise 2 — T1/B: negative zero
+-- SQL Basics · T1/B — Negative zero
 SELECT i,
        round(CAST(i AS double precision)) AS "Rounded floating-point number",
        trunc(CAST(i AS double precision)) AS "Truncated floating-point number",

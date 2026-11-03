@@ -1,4 +1,4 @@
-# SQL Basics · Exercise 6 — T2/C: NOT a IS NULL vs a IS NOT NULL
+# SQL Basics · T2/C — NOT a IS NULL vs a IS NOT NULL
 
 > Course: SQL
 > Date: 2026-10-22

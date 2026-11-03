@@ -1,4 +1,4 @@
--- SQL Basics · Exercise 1 — T1/A: rounding numeric vs double
+-- SQL Basics · T1/A — Rounding numeric vs double
 SELECT i,
        round(CAST(i AS double precision)) AS "Rounded floating-point number",
        round(CAST(i AS numeric)) AS "Rounded fixed-point number"

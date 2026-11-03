@@ -1,4 +1,4 @@
-# SQL Basics · Exercise 8 — T3/A: strong vs weak, static vs dynamic typing
+# SQL Basics · T3/A — Strong vs weak, static vs dynamic typing
 
 > Course: SQL
 > Date: 2026-10-27

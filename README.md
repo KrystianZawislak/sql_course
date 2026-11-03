@@ -11,10 +11,10 @@ Assignments from the *SQL* course, grouped into sections by topic.
 ├── new_exercise.sh       # creates the next exercise folder in a section
 ├── 01_basics/
 │   ├── README.md         # section title + list of its exercises
-│   ├── ex01/
+│   ├── t1_a/             # one folder per Moodle task (T1/A -> t1_a, T2/B/1 -> t2_b_1)
 │   │   ├── README.md     # task (PL + EN), files
 │   │   └── solution.sql
-│   ├── ex02/
+│   ├── t1_b/
 │   └── ...
 ├── 02_where_set_operators/
 └── ...
@@ -30,9 +30,9 @@ Assignments from the *SQL* course, grouped into sections by topic.
 ## Adding a new exercise
 
 ```bash
-./new_exercise.sh basics                       # next free number in 01_basics
-./new_exercise.sh basics "SELECT everything"   # next number + title
-./new_exercise.sh 1 5 "Aliases"                # section 01, exercise 5 + title
+./new_exercise.sh joins T2/B/1 "Title"        # Moodle task ID -> 04_joins/t2_b_1
+./new_exercise.sh basics "SELECT everything"   # no ID: next free number (exNN) + title
+./new_exercise.sh 1 5 "Aliases"                # section 01, exercise ex05 + title
 ```
 
 Then paste the task description into the new `README.md` — the Polish original

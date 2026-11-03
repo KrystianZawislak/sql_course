@@ -1,4 +1,4 @@
--- WHERE Clause & Set Operators · Exercise 11 — Discus throw: Olympic final winner
+-- WHERE Clause & Set Operators · DYSKOBOL — Discus throw: Olympic final winner
 WITH discus AS(
 SELECT *
 	FROM (VALUES

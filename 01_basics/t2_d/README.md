@@ -1,4 +1,4 @@
-# SQL Basics · Exercise 7 — T2/D: NOT a IS NULL AND NOT a IS NOT NULL
+# SQL Basics · T2/D — NOT a IS NULL AND NOT a IS NOT NULL
 
 > Course: SQL
 > Date: 2026-10-26

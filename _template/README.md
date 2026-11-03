@@ -1,4 +1,4 @@
-# {{SECTION_TITLE}} · Exercise {{N}} — {{TITLE}}
+# {{SECTION_TITLE}} · {{LABEL}} — {{TITLE}}
 
 > Course: SQL
 > Date: {{DATE}}

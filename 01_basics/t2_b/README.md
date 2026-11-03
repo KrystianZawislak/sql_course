@@ -1,4 +1,4 @@
-# SQL Basics · Exercise 5 — T2/B: p >= 10 OR p < 10 as a tautology
+# SQL Basics · T2/B — p >= 10 OR p < 10 as a tautology
 
 > Course: SQL
 > Date: 2026-10-22

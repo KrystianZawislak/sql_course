@@ -1,4 +1,4 @@
--- SQL Basics · Exercise 7 — T2/D: NOT a IS NULL AND NOT a IS NOT NULL
+-- SQL Basics · T2/D — NOT a IS NULL AND NOT a IS NOT NULL
 
 SELECT a,
 a IS NULL AS "a IS NULL", NOT a IS NULL AS "NOT a IS NULL",

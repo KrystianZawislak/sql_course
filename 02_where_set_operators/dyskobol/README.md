@@ -1,4 +1,4 @@
-# WHERE Clause & Set Operators · Exercise 11 — Discus throw: Olympic final winner
+# WHERE Clause & Set Operators · DYSKOBOL — Discus throw: Olympic final winner
 
 > Course: SQL
 > Date: 2026-10-23

@@ -1,4 +1,4 @@
--- SQL Basics · Exercise 8 — T3/A: strong vs weak, static vs dynamic typing
+-- SQL Basics · T3/A — Strong vs weak, static vs dynamic typing
 -- Run each query separately (select the line and press F5) – most of them fail on purpose.
 
 -- Strong typing: PostgreSQL does not convert types silently

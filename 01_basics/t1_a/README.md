@@ -1,4 +1,4 @@
-# SQL Basics · Exercise 1 — T1/A: rounding numeric vs double
+# SQL Basics · T1/A — Rounding numeric vs double
 
 > Course: SQL
 > Date: 2026-10-19

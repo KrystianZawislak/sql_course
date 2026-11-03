@@ -1,4 +1,4 @@
-# SQL Basics · Exercise 3 — T1/C: 0.1 + 0.2 = 0.3 is false
+# SQL Basics · T1/C — 0.1 + 0.2 = 0.3 is false
 
 > Course: SQL
 > Date: 2026-10-19

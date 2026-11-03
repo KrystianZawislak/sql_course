@@ -6,11 +6,11 @@
 
 | #   | Title | Status |
 | --- | ----- | ------ |
-| [1](ex01/) | T1/A: rounding numeric vs double | ✅ |
-| [2](ex02/) | T1/B: negative zero | ✅ |
-| [3](ex03/) | T1/C: 0.1 + 0.2 = 0.3 is false | ✅ |
-| [4](ex04/) | T2/A: p OR NOT p in 3VL | ✅ |
-| [5](ex05/) | T2/B: p >= 10 OR p < 10 as a tautology | ✅ |
-| [6](ex06/) | T2/C: NOT a IS NULL vs a IS NOT NULL | ✅ |
-| [7](ex07/) | T2/D: NOT a IS NULL AND NOT a IS NOT NULL | ✅ |
-| [8](ex08/) | T3/A: strong vs weak, static vs dynamic typing | ✅ |
+| [T1/A](t1_a/) | Rounding numeric vs double | ✅ |
+| [T1/B](t1_b/) | Negative zero | ✅ |
+| [T1/C](t1_c/) | 0.1 + 0.2 = 0.3 is false | ✅ |
+| [T2/A](t2_a/) | p OR NOT p in 3VL | ✅ |
+| [T2/B](t2_b/) | p >= 10 OR p < 10 as a tautology | ✅ |
+| [T2/C](t2_c/) | NOT a IS NULL vs a IS NOT NULL | ✅ |
+| [T2/D](t2_d/) | NOT a IS NULL AND NOT a IS NOT NULL | ✅ |
+| [T3/A](t3_a/) | Strong vs weak, static vs dynamic typing | ✅ |

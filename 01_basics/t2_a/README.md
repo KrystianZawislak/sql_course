@@ -1,4 +1,4 @@
-# SQL Basics · Exercise 4 — T2/A: p OR NOT p in 3VL
+# SQL Basics · T2/A — p OR NOT p in 3VL
 
 > Course: SQL
 > Date: 2026-10-20
