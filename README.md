@@ -46,3 +46,4 @@ The script also adds the exercise to the section's table (status ⏳, change to 
 | 01 | [SQL Basics](01_basics/) |
 | 02 | [WHERE Clause & Set Operators](02_where_set_operators/) |
 | 03 | [Data Manipulation (DML)](03_dml/) |
+| 04 | [Joins](04_joins/) |
