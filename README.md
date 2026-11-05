@@ -5,7 +5,7 @@ Assignments from the *SQL* course, grouped into sections by topic.
 The course — lectures, instructions, task descriptions and the lecturer's
 database scripts (UCZELNIA, Cycling, VTS, …) — was created by
 [Tomasz Potempa](https://scholar.google.com/citations?user=8a0ue44AAAAJ&hl=pl)
-(Department of Computer Science, University of Applied Sciences in Tarnów).
+(Department of Computer Science, Akademia Tarnowska).
 The solutions are my own.
 
 ## Structure
