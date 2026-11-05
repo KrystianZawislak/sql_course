@@ -16,3 +16,4 @@
 | [T2/D](t2_d/) | Cycling: teams without a female athlete | ✅ |
 | [T3/A](t3_a/) | Natural join: grades in semester II | ✅ |
 | [T3/B](t3_b/) | Natural join: students without a semester I grade | ✅ |
+| [T4/A](t4_a/) | Cross join of three tables | ✅ |
