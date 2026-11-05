@@ -14,3 +14,4 @@
 | [T2/B/2](t2_b_2/) | Computer Science grades (all students) | ✅ |
 | [T2/C](t2_c/) | Computer Science students without a semester I grade | ✅ |
 | [T2/D](t2_d/) | Cycling: teams without a female athlete | ✅ |
+| [T3/A](t3_a/) | Natural join: grades in semester II | ✅ |
