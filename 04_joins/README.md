@@ -17,3 +17,4 @@
 | [T3/A](t3_a/) | Natural join: grades in semester II | ✅ |
 | [T3/B](t3_b/) | Natural join: students without a semester I grade | ✅ |
 | [T4/A](t4_a/) | Cross join of three tables | ✅ |
+| [extra](extra_cycling/) | Problem task #Cycling (T2/D/0 – T2/D/3) | ✅ |
