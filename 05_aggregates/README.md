@@ -6,7 +6,7 @@
 
 | #   | Title | Status |
 | --- | ----- | ------ |
-| [T1/A](t1_a/) | Number of Computer Science students | ⏳ |
+| [T1/A](t1_a/) | Number of Computer Science students | ✅ |
 | [T1/B](t1_b/) | Average grade in Mathematical Analysis | ⏳ |
 | [T1/C](t1_c/) | Latest enrolment for Data Warehouses | ⏳ |
 | [T1/D](t1_d/) | Cycling: average BMI | ⏳ |
