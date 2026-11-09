@@ -111,5 +111,5 @@ The tasks should be completed using the Cycling database schema.
 
 | File           | Description |
 | -------------- | ----------- |
-| `setup.sql`    | Lecturer's `cycling` schema (Cycling 5.00) |
+| `setup.sql`    | Lecturer's `cycling` schema (newer version, 70 athletes) |
 | `solution.sql` | Query on the `cycling` schema |
