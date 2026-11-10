@@ -18,3 +18,4 @@
 | [T2/C](t2_c/) | Average grade of each student per field of study | ✅ |
 | [T2/D](t2_d/) | Average grade of each student per semester | ✅ |
 | [T2/E](t2_e/) | ECTS points of each student in semester 1 | ✅ |
+| [T3/A](t3_a/) | Computer Science students with an average between 3.50 and 4.00 | ✅ |
