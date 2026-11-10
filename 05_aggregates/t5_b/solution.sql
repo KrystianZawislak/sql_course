@@ -1,0 +1,8 @@
+-- Aggregates & Grouping · T5/B — Ranking of students by average grade within each field of study
+
+SELECT nr_albumu, imie, nazwisko, AVG(ocena), nazwa_kierunku,
+       rank() OVER (PARTITION BY (nazwa_kierunku) ORDER BY AVG(ocena) DESC)
+FROM dziekanat.oceny o
+     NATURAL JOIN dziekanat.studenci s
+     INNER JOIN dziekanat.kierunki_studiow ks ON o.id_kierunku_studiow = ks.id_kierunku
+GROUP BY nr_albumu, id_kierunku, imie, nazwisko;

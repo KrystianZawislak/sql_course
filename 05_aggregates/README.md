@@ -22,3 +22,4 @@
 | [T3/B](t3_b/) | Students who took a subject more than once | ✅ |
 | [T3/C](t3_c/) | Electives with at least 5 enrollments per year | ✅ |
 | [T5/A](t5_a/) | Ranking of students by average grade | ✅ |
+| [T5/B](t5_b/) | Ranking of students by average grade within each field of study | ✅ |
