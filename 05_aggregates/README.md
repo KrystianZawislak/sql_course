@@ -12,3 +12,4 @@
 | [T1/C](t1_c/) | Latest enrollment in the Data Warehouses elective | ✅ |
 | [T1/D](t1_d/) | Average BMI of all cyclists | ✅ |
 | [T4/A](t4_a/) | Students with a disability per field of study | ✅ |
+| [T4/B](t4_b/) | Average BMI and athlete counts | ✅ |
