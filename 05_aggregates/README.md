@@ -10,3 +10,4 @@
 | [T1/B](t1_b/) | Average grade in Mathematical Analysis | ✅ |
 | [#Cyclists](problem_cyclists/) | Problem task #Cyclists | ✅ |
 | [T1/C](t1_c/) | Latest enrollment in the Data Warehouses elective | ✅ |
+| [T1/D](t1_d/) | Average BMI of all cyclists | ✅ |
