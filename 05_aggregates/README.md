@@ -20,3 +20,4 @@
 | [T2/E](t2_e/) | ECTS points of each student in semester 1 | ✅ |
 | [T3/A](t3_a/) | Computer Science students with an average between 3.50 and 4.00 | ✅ |
 | [T3/B](t3_b/) | Students who took a subject more than once | ✅ |
+| [T3/C](t3_c/) | Electives with at least 5 enrollments per year | ✅ |
