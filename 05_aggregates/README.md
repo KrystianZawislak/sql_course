@@ -14,3 +14,4 @@
 | [T4/A](t4_a/) | Students with a disability per field of study | ✅ |
 | [T4/B](t4_b/) | Average BMI and athlete counts | ✅ |
 | [T2/A](t2_a/) | Number of students per military recruitment office | ✅ |
+| [T2/B](t2_b/) | Students per recruitment office, including those without one | ✅ |
