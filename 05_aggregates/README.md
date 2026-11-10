@@ -17,3 +17,4 @@
 | [T2/B](t2_b/) | Students per recruitment office, including those without one | ✅ |
 | [T2/C](t2_c/) | Average grade of each student per field of study | ✅ |
 | [T2/D](t2_d/) | Average grade of each student per semester | ✅ |
+| [T2/E](t2_e/) | ECTS points of each student in semester 1 | ✅ |
