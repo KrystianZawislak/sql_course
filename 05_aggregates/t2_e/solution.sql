@@ -1,7 +1,7 @@
 -- Aggregates & Grouping · T2/E — ECTS points of each student in semester 1
 
 SELECT sk.nr_albumu, s.imie, s.nazwisko, ks.nazwa_kierunku,
-       COALESCE(SUM(ects) FILTER (WHERE o.ocena > 2), 0) AS "SUMA ECTS"
+       COALESCE(SUM(ects) FILTER (WHERE o.ocena > 2), 0) AS "TOTAL ECTS"
 FROM dziekanat.studenci_kierunkow sk
      INNER JOIN dziekanat.kierunki_studiow ks ON sk.id_kierunku_studiow = ks.id_kierunku
      INNER JOIN dziekanat.studenci s USING (nr_albumu)
