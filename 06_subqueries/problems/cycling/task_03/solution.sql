@@ -1,0 +1,2 @@
+-- Subqueries · Problem task — #cycling — Task 3: Teams whose athletes are all from the team's country
+-- (run ../setup.sql first)

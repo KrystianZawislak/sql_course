@@ -1,0 +1,2 @@
+-- Subqueries · Problem task — Factory (bill of materials) — Task 1: Model inconsistencies
+-- (run ../setup.sql first)

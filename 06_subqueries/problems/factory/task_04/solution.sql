@@ -1,0 +1,2 @@
+-- Subqueries · Problem task — Factory (bill of materials) — Task 4: Components and products that need a bearing
+-- (run ../setup.sql first)

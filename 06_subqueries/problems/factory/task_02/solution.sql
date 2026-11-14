@@ -1,0 +1,2 @@
+-- Subqueries · Problem task — Factory (bill of materials) — Task 2: Full composition of the MTB bike
+-- (run ../setup.sql first)

@@ -1,0 +1,2 @@
+-- Subqueries · Problem task — Factory (bill of materials) — Task 3: Assembly paths
+-- (run ../setup.sql first)

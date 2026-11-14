@@ -1,0 +1,2 @@
+-- Subqueries · Problem task — Factory (bill of materials) — Task 5: Cycle detection
+-- (run ../setup.sql first)
