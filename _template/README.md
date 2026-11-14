@@ -3,7 +3,7 @@
 > Course: SQL
 > Date: {{DATE}}
 
-[← {{SECTION_TITLE}}](../README.md)
+[← {{SECTION_TITLE}}](../../README.md)
 
 ## Task
 

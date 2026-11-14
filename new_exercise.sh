@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Creates a new exercise folder inside a section and lists it in the section README.
+# Creates a new task folder in <section>/tasks/ and lists it in the section README (## Tasks table).
 # Usage: ./new_exercise.sh <section> [number | task-id] [title]
 #   section - folder name (01_basics), its number (1, 01) or slug (basics)
 #   number  - optional; the folder becomes exNN (defaults to the next free number)
@@ -48,7 +48,7 @@ else
 fi
 
 title="${*:-Untitled}"
-dir="$section/$folder"
+dir="$section/tasks/$folder"
 section_title=$(head -1 "$section/README.md" | sed 's/^# [0-9]*\. //')
 
 if [[ -e "$dir" ]]; then
@@ -59,10 +59,18 @@ fi
 # escapes \, / and & so the text is safe as a sed replacement
 esc() { printf '%s' "$1" | sed 's/[\\/&]/\\&/g'; }
 
-mkdir "$dir"
+mkdir -p "$dir"
 sed -e "s/{{LABEL}}/$(esc "$label")/g" -e "s/{{TITLE}}/$(esc "$title")/g" -e "s/{{SECTION_TITLE}}/$(esc "$section_title")/g" \
   -e "s/{{DATE}}/$(date +%Y-%m-%d)/g" _template/README.md > "$dir/README.md"
 printf -- '-- %s · %s — %s\n\n' "$section_title" "$label" "$title" > "$dir/solution.sql"
-echo "| [$link]($folder/) | $title | ⏳ |" >> "$section/README.md"
+# insert the row after the last row of the "## Tasks" table
+row="| [$link](tasks/$folder/) | $title | ⏳ |"
+awk -v row="$row" '
+  /^## / { if (intasks && !done) { print row; print ""; done = 1 } intasks = ($0 == "## Tasks") }
+  intasks && /^$/ && seen { print row; done = 1; intasks = 0 }
+  intasks && /^\|/ { seen = 1 }
+  { print }
+  END { if (!done) { if (!intasks) print "\n## Tasks\n\n| #   | Title | Status |\n| --- | ----- | ------ |"; print row } }
+' "$section/README.md" > "$section/README.md.tmp" && mv "$section/README.md.tmp" "$section/README.md"
 
 echo "created $dir/README.md, $dir/solution.sql"

@@ -2,8 +2,13 @@
 
 [← All sections](../README.md)
 
-## Exercises
+## Tasks
 
 | #   | Title | Status |
 | --- | ----- | ------ |
-| [DYSKOBOL](dyskobol/) | Discus throw: Olympic final winner | ✅ |
+
+## Problem tasks
+
+| #   | Title | Status |
+| --- | ----- | ------ |
+| [DYSKOBOL](problems/dyskobol/) | Discus throw: Olympic final winner | ✅ |

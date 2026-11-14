@@ -2,7 +2,7 @@
 
 [← All sections](../README.md)
 
-## Exercises
+## Tasks
 
 | #   | Title | Status |
 | --- | ----- | ------ |
