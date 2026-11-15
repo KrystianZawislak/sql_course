@@ -24,7 +24,7 @@ The tasks are to be done on the Cycling database schema.
 | [2.2](task_02_2/) | Per team: athletes younger than the overall average | ✅ |
 | [2.3](task_02_3/) | Per team: athletes younger than the team average | ✅ |
 | [2.4](task_02_4/) | Both counts in one query | ✅ |
-| [3](task_03/) | Teams whose athletes are all from the team's country | ⏳ |
+| [3](task_03/) | Teams whose athletes are all from the team's country | ✅ |
 
 ## Files
 

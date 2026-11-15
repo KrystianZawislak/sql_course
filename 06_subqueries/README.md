@@ -14,5 +14,5 @@
 
 | #   | Title | Status |
 | --- | ----- | ------ |
-| [#cycling](problems/cycling/) | Problem task #cycling | ⏳ |
+| [#cycling](problems/cycling/) | Problem task #cycling | ✅ |
 | [Factory](problems/factory/) | Problem task — Factory (bill of materials) | ⏳ |
