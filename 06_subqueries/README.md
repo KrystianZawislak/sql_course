@@ -13,6 +13,7 @@
 | [T4/A](tasks/t4_a/) | Lecturers without any elective enrollments in 2012 | ✅ |
 | [T4/B](tasks/t4_b/) | Students without a failing grade in semester I | ✅ |
 | [T5/A](tasks/t5_a/) | Students with the most failing grades | ✅ |
+| [T5/B](tasks/t5_b/) | Computer Science students with a higher average than Mathematics students | ✅ |
 
 ## Problem tasks
 
