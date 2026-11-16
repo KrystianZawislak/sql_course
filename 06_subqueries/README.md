@@ -12,6 +12,7 @@
 | [T3/B](tasks/t3_b/) | Students with a lower average in semester I than in semester II | ✅ |
 | [T4/A](tasks/t4_a/) | Lecturers without any elective enrollments in 2012 | ✅ |
 | [T4/B](tasks/t4_b/) | Students without a failing grade in semester I | ✅ |
+| [T5/A](tasks/t5_a/) | Students with the most failing grades | ✅ |
 
 ## Problem tasks
 
