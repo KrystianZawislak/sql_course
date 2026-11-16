@@ -14,6 +14,7 @@
 | [T4/B](tasks/t4_b/) | Students without a failing grade in semester I | ✅ |
 | [T5/A](tasks/t5_a/) | Students with the most failing grades | ✅ |
 | [T5/B](tasks/t5_b/) | Computer Science students with a higher average than Mathematics students | ✅ |
+| [T6/A](tasks/t6_a/) | Students' personal data with their field of study (multi-level subqueries) | ✅ |
 
 ## Problem tasks
 
