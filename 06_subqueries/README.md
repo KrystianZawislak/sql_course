@@ -15,6 +15,7 @@
 | [T5/A](tasks/t5_a/) | Students with the most failing grades | ✅ |
 | [T5/B](tasks/t5_b/) | Computer Science students with a higher average than Mathematics students | ✅ |
 | [T6/A](tasks/t6_a/) | Students' personal data with their field of study (multi-level subqueries) | ✅ |
+| [T7/A](tasks/t7_a/) | Which lecturer examples use correlated subqueries | ✅ |
 
 ## Problem tasks
 
