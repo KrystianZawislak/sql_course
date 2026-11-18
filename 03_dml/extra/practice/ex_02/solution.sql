@@ -1,4 +1,5 @@
 -- Data Manipulation (DML) · Extra — Step-by-step DML practice — Ex. 2: Insert only some columns
+-- Self-made extra exercise (prepared with Claude), not from the lecturer's (T. Potempa) materials
 -- (run ../setup.sql first)
 
 INSERT INTO exploratory.fruit (id, name) VALUES (2, 'pear');

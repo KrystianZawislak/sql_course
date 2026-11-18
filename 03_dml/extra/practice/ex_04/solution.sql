@@ -1,4 +1,5 @@
 -- Data Manipulation (DML) · Extra — Step-by-step DML practice — Ex. 4: Duplicate primary key
+-- Self-made extra exercise (prepared with Claude), not from the lecturer's (T. Potempa) materials
 -- (run ../setup.sql first)
 
 -- INSERT INTO exploratory.fruit VALUES (1, 'example', 2.50, 10);

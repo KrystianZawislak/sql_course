@@ -1,4 +1,5 @@
 -- Data Manipulation (DML) · Extra — Step-by-step DML practice — Ex. 13: CROSS JOIN of digit with itself
+-- Self-made extra exercise (prepared with Claude), not from the lecturer's (T. Potempa) materials
 -- (run ../setup.sql first)
 
 SELECT u.arab, t.arab

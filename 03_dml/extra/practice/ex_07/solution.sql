@@ -1,4 +1,5 @@
 -- Data Manipulation (DML) · Extra — Step-by-step DML practice — Ex. 7: Even or odd with CASE
+-- Self-made extra exercise (prepared with Claude), not from the lecturer's (T. Potempa) materials
 -- (run ../setup.sql first)
 
 SELECT d.arab, (CASE
