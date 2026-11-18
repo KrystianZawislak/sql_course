@@ -16,6 +16,7 @@
 | [T5/B](tasks/t5_b/) | Computer Science students with a higher average than Mathematics students | ✅ |
 | [T6/A](tasks/t6_a/) | Students' personal data with their field of study (multi-level subqueries) | ✅ |
 | [T7/A](tasks/t7_a/) | Which lecturer examples use correlated subqueries | ✅ |
+| [T8/A](tasks/t8_a/) | Students with an average higher than their field of study's average (WITH) | ✅ |
 
 ## Problem tasks
 
