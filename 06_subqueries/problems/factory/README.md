@@ -27,8 +27,8 @@ The tasks are to be done on the Factory database schema – see [`setup.sql`](se
 
 | #   | Title | Status |
 | --- | ----- | ------ |
-| [1](task_01/) | Model inconsistencies | ⏳ |
-| [2](task_02/) | Full composition of the MTB bike | ⏳ |
+| [1](task_01/) | Model inconsistencies | ✅ |
+| [2](task_02/) | Full composition of the MTB bike | ✅ |
 | [3](task_03/) | Assembly paths | ⏳ |
 | [4](task_04/) | Components and products that need a bearing | ⏳ |
 | [5](task_05/) | Cycle detection | ⏳ |
