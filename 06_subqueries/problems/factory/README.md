@@ -32,7 +32,7 @@ The tasks are to be done on the Factory database schema – see [`setup.sql`](se
 | [3](task_03/) | Assembly paths | ✅ |
 | [4](task_04/) | Components and products that need a bearing | ✅ |
 | [5](task_05/) | Cycle detection | ⏳ |
-| [6](task_06/) | Why Seat and Handlebar are children of Frame | ⏳ |
+| [6](task_06/) | Why Seat and Handlebar are children of Frame | ✅ |
 
 ## Files
 
