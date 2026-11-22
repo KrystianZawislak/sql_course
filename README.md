@@ -65,3 +65,4 @@ with a shared `README.md` and `setup.sql`, and one numbered subfolder per task.
 | 04 | [Joins](04_joins/) |
 | 05 | [Aggregates & Grouping](05_aggregates/) |
 | 06 | [Subqueries](06_subqueries/) |
+| 07 | [Data Definition (DDL)](07_ddl/) |
