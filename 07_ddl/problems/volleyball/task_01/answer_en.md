@@ -1,0 +1,1 @@
+The data cannot be inserted because the two tables have a circular dependency of foreign keys on each other. The solution is to check these keys only at `COMMIT`, which is why we set `DEFERRABLE INITIALLY DEFERRED` and write `BEGIN` and `COMMIT`.

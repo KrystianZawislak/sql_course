@@ -1,0 +1,1 @@
+Nie da się wstawić danych, bo dwie tabele mają według siebie cykliczną zależność kluczy obcych. Rozwiązaniem jest sprawdzenie tych kluczy dopiero przy `COMMIT`, dlatego ustawiamy `DEFERRABLE INITIALLY DEFERRED` i piszemy ten `BEGIN` i `COMMIT`.
