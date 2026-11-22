@@ -21,7 +21,7 @@ The tasks are to be done on the `volleyball` schema (national teams and their at
 | --- | ----- | ------ |
 | [1](task_01/) | Why the data cannot be inserted | ✅ |
 | [2](task_02/) | Why deferring the checks did not help | ✅ |
-| [3](task_03/) | Matches, line-ups and statistics | ⏳ |
+| [3](task_03/) | Matches, line-ups and statistics | ✅ |
 
 ## Files
 

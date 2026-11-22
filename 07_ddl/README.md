@@ -11,4 +11,4 @@
 
 | #   | Title | Status |
 | --- | ----- | ------ |
-| [Volleyball](problems/volleyball/) | Problem task — Volleyball | ⏳ |
+| [Volleyball](problems/volleyball/) | Problem task — Volleyball | ✅ |
