@@ -13,3 +13,7 @@ CLAUDE.md
 
 # course documents (slides, PDFs, notes) — local only
 docs/
+
+# private notes (completion rules, glossary) — local only
+ending_rules.md
+glossary.md
