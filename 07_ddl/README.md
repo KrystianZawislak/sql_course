@@ -7,6 +7,7 @@
 | #   | Title | Status |
 | --- | ----- | ------ |
 | [T2/B](tasks/t2_b/) | Schema for Formula 1 | ✅ |
+| [T4/A](tasks/t4_a/) | Formula 1 tables | ✅ |
 
 ## Problem tasks
 
