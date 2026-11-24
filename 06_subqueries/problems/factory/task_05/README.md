@@ -23,4 +23,4 @@ Add a row to the **cycling.assemblage** table (the table is `factory.assemblage`
 
 | File           | Description |
 | -------------- | ----------- |
-| `solution.sql` | Query on the `factory` schema |
+| `solution.sql` | Row creating a cycle, test results of tasks 2–4, cycle detection query |
