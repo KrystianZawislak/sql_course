@@ -17,3 +17,4 @@
 | [T3/B/1](tasks/t3_b_1/) | Subjects table | ✅ |
 | [T3/B/2](tasks/t3_b_2/) | Lecturers table | ✅ |
 | [T3/C](tasks/t3_c/) | Even records of faculties | ✅ |
+| [T4/A](tasks/t4_a/) | rows, width and loops in EXPLAIN ANALYZE | ✅ |
