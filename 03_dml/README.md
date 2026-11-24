@@ -11,6 +11,7 @@
 | [T2/B](tasks/t2_b/) | Odd Arabic and Roman numbers up to 999 | ✅ |
 | [T2/C](tasks/t2_c/) | Graduates table | ✅ |
 | [T3/A](tasks/t3_a/) | Deleting early graduates | ✅ |
+| [T4/A](tasks/t4_a/) | Promotion and raise for a lecturer | ✅ |
 
 ## Problem tasks
 
