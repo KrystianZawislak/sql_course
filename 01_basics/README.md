@@ -14,3 +14,4 @@
 | [T2/C](tasks/t2_c/) | NOT a IS NULL vs a IS NOT NULL | ✅ |
 | [T2/D](tasks/t2_d/) | NOT a IS NULL AND NOT a IS NOT NULL | ✅ |
 | [T3/A](tasks/t3_a/) | Strong vs weak, static vs dynamic typing | ✅ |
+| [T3/B/1](tasks/t3_b_1/) | Subjects table | ✅ |
