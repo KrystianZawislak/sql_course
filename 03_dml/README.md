@@ -10,6 +10,7 @@
 | [T2/A](tasks/t2_a/) | Arabic and Roman numbers from 1 to 30 | ✅ |
 | [T2/B](tasks/t2_b/) | Odd Arabic and Roman numbers up to 999 | ✅ |
 | [T2/C](tasks/t2_c/) | Graduates table | ✅ |
+| [T3/A](tasks/t3_a/) | Deleting early graduates | ✅ |
 
 ## Problem tasks
 
